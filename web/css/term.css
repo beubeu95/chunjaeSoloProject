@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.page {
+    height: 650px;
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+.agree_fr {
+    width: 900px;
+    margin: 20px auto;
+    border:1px solid #eee;
+    padding: 20px;
+    overflow-y: auto;
+    height: 450px;
+    white-space: pre-wrap;
+}
+span {
+    float: right;
+}
+.btn_fr{
+    display: inline-block;
+}
+.inbtn {
+    float: right;
+    border-radius:100px;
+    min-width:140px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    line-height: 48px;
+    background-color: cornflowerblue;
+    color:#fff;
+    font-size: 18px;
+}
+#ck_item1 {
+    float:left;
+    margin-left: 990px;
+}

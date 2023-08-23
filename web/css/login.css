@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+.login-wrapper{
+    text-align: center;
+    width: 500px;
+    border-radius: 10px;
+    padding: 80px 50px;
+    background-color: #eee;
+    box-sizing: border-box;
+    margin: 130px auto;
+}
+
+#login-form > input{
+    width: 75%;
+    height: 48px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+}
+
+#login-form > .container input {
+    width: 75%;
+    height: 48px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+}
+
+#login-form > input[type=button] {
+    width: 30%;
+    height: 24px;
+    background-color: cornflowerblue;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+#login-form > input::placeholder{
+    color: #D2D2D2;
+}
+#login-form > input[type="submit"]{
+    width: 30%;
+    color: #fff;
+    font-size: 16px;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+}

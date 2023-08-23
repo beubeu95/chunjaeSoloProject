@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+.join-wrapper {
+    text-align: center;
+    width: 675px;
+    padding: 40px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tb1 {
+    align-items: center;
+    width: 520px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.tb1 td {
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div.person {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.tb1 label {
+    color: cornflowerblue;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tb1 .indata {
+    width: 100%;
+    height: 48px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+}
+
+.tb1 .inbtn {
+    color: #ffffff;
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    align-items: center;
+    font-size: 15px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.tb1 input[type = submit]{
+    color: #fff;
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    align-items: center;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
