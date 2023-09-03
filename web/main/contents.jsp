@@ -3,9 +3,11 @@
     <ul class="img_box">
         <li class="item1 active">
             <input type="radio" name="vs_ra" id="vs_ra1" class="vs_ra" checked>
+            <div class="bg_box"></div>
         </li>
         <li class="item2">
             <input type="radio" name="vs_ra" id="vs_ra2" class="vs_ra">
+            <div class="bg_box"></div>
         </li>
     </ul>
     <ul class="btn_box">

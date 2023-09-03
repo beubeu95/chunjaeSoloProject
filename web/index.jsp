@@ -35,8 +35,8 @@
             background-position:center center; background-size:cover; position:absolute;
             left: 0; top: 0; z-index:5; }
         .img_box li.active .bg_box { z-index:6; }
-        .img_box li.item1 .bg_box { background-image: url("/images/main_image1.png"); }
-        .img_box li.item2 .bg_box { background-image: url("/images/main_image2.png"); }
+        .img_box li.item1 .bg_box{ background-image: url("<%=path44 %>/images/main_image1.png"); }
+        .img_box li.item2 .bg_box { background-image: url("<%=path44 %>/images/main_image2.png"); }
         .img_box li .vs_tit { position:absolute; top:180px; left:100px; z-index:10;
             font-weight: 300; font-size: 60px; line-height: 1.3; }
         .img_box li .vs_tit strong { font-weight: 500; }
